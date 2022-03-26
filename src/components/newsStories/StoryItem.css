@@ -1,0 +1,21 @@
+
+
+.news__story {
+    border-color: lightslategray;
+    border-radius: 15px;
+
+    
+}
+
+.news__text {
+    /* margin-bottom: 10rem; */
+    overflow: hidden;
+    max-height: 8rem;
+    transition: color, 0.3s, ease-out;
+    -webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);
+}
+
+.news__card:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
